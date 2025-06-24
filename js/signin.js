@@ -15,5 +15,5 @@ document.getElementById("signinForm").addEventListener("submit", function (e) {
   localStorage.setItem("loggedInEmail", email);
 
   alert("Berhasil masuk!");
-  window.location.href = "profile.html";
+  window.location.href = "/favour-medic/html/profile.html";
 });
