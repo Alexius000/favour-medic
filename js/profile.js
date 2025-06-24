@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const user = JSON.parse(localStorage.getItem('userData'));
   if (!user) {
     alert('Data tidak ditemukan. Silakan registrasi.');
-    window.location.href = 'register.html';
+    window.location.href = '/favour-medic/html/register.html';
     return;
   }
 
@@ -21,9 +21,9 @@ document.addEventListener('DOMContentLoaded', () => {
 function signOut() {
   localStorage.removeItem('userData');
   alert('Berhasil keluar!');
-  window.location.href = 'login.html';
+  window.location.href = '/favour-medic/html/signin.html';
 }
 
 function editProfile() {
-  window.location.href = 'register.html';
+  window.location.href = '/favour-medic/html/register.html';
 }
