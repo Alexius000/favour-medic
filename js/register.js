@@ -92,6 +92,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         localStorage.setItem('userData', JSON.stringify(userProfile));
         alert('Pendaftaran berhasil!');
-        window.location.href = 'signin.html';
+        window.location.href = '/favour-medic/html/signin.html';
     });
 });
